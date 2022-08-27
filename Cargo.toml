@@ -1,10 +1,16 @@
 [package]
 name = "pipeviewer"
 version = "0.1.0"
+authors = ["Chris Milbert <chris@milbert.dev>"]
 edition = "2021"
+homepage = "https://github.com/cmilbert/pipeviewer"
+repository = "https://github.com/cmilbert/pipeviewer"
+readme = "README.md"
+keywords = ["educational", "unmaintained"]
+categories = ["command-line-utilities"]
+license = "Apache-2.0"
 
 [dependencies]
 clap = "3.2.17"
-# crossbeam = "0.8.1"
 crossbeam-channel = "0.4.0"
 crossterm = "0.25.0"
